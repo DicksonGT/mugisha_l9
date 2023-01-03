@@ -246,7 +246,6 @@ class FrontEndController extends JoshController
             // Register the user
             $user = Sentinel::register($user_data, $activate);
 
-            return;
             //return $user;
             //create member after user
             member::create($user_data);
