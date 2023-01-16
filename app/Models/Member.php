@@ -16,7 +16,7 @@ class Member extends Model  {
      *
      * @var array
      */
-    protected $fillable = ['first_name', 'second_name', 'last_name', 'phone_number', 'nida_number', 'employment_status', 'employer', 'region_id', 'district_id', 'dob'];
+    protected $fillable = ['first_name', 'second_name', 'last_name', 'phone_number', 'nida_number', 'employment_status', 'club', 'employer', 'region_id', 'district_id', 'dob'];
     
     
     public function region()

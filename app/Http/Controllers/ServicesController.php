@@ -21,6 +21,18 @@ class ServicesController extends Controller {
 		return view('admin.services.index', compact('services'));
 	}
 
+
+	/**
+	 * Display a listing of the resource.
+	 *
+	 * @return Response
+	 */
+	public function public_services()
+	{
+		$services = Service::latest()->get();
+		return view('services', compact('services'));
+	}
+
 	/**
 	 * Show the form for creating a new resource.
 	 *

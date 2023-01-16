@@ -223,6 +223,8 @@ Route::get('getdistricts', array('as'=> 'getdistricts', 'uses'=> 'FrontEndContro
 
 Route::get('products', array('as'=>'getproducts', 'uses'=>'ProductsController@public_index'));
 
+Route::get('services', array('as'=>'getservices', 'uses'=>'ServicesController@public_services'));
+
 Route::get('logout', array('as' => 'logout','uses' => 'FrontEndController@getLogout'));
 # contact form
 Route::post('contact',array('as' => 'contact','uses' => 'FrontEndController@postContact'));

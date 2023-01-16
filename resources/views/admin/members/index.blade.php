@@ -45,6 +45,7 @@ members List
                     <thead>
                         <tr class="filters">
                             <th>#</th>
+                            <th>Link</th>
                             <th>First Name</th>
 							<th>Second Name</th>
 							<th>Last Name</th>
@@ -52,7 +53,6 @@ members List
 							<th>Nida Number</th>
 							<th>Employment Status</th>
 							<th>Location</th>
-							<th>Link</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -60,6 +60,7 @@ members List
                     @foreach ($members as $member)
                         <tr>
                             <td>{!! $member->id !!}</td>
+                            <td>{!! Request::getHost() .'/member_report/'. $member->id !!}</td>
                             <td>{!! $member->first_name !!}</td>
 							<td>{!! $member->second_name !!}</td>
 							<td>{!! $member->last_name !!}</td>
@@ -67,7 +68,6 @@ members List
 							<td>{!! $member->nida_number !!}</td>
 							<td>{!! $member->employment_status !!}</td>
 							<td>{!! $member->region->name .' '.$member->district->name !!}</td>
-							<td>{!! Request::getHost() .'/member_report/'. $member->id !!}</td>
                             <td>
                                 <a href="{{ route('members.show', $member->id) }}">
                                     <i class="livicon" data-name="info" data-size="18" data-loop="true" data-c="#428BCA" data-hc="#428BCA" title="view member"></i>

@@ -20,13 +20,10 @@ Home
     <div class="container">
         <div class="row">
             <!-- Contact form Section Start -->
-            <h2>Welcome</h2>
+            <h2>Huduma Bora</h2>
             <ul class="list-group">
-                <li onclick="location.href='products'" class="list-group-item" id="matumizi">Nunua</li>
-                <li onclick="location.href='services'" class="list-group-item" id="matumizi">Huduma</li>
-                <li onclick="location.href='record_expence'" class="list-group-item" id="matumizi">Matumizi</li>
-                <li class="list-group-item"  onclick="location.href='loans_home'" id="mikopo">Mikopo</li>
-                <li class="list-group-item" id="settings">Settings</li>
+                <li onclick="location.href='hospitals'" class="list-group-item" id="hospitali">Hospitali</li>
+                <li class="list-group-item" id="usafiri">Usafiri</li>
             </ul>
     </div>
     
