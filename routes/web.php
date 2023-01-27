@@ -205,6 +205,12 @@ Route::group(array('prefix' => 'admin', 'middleware' => 'SentinelAdmin'), functi
 #FrontEndController
 Route::get('login', array('as' => 'login','uses' => 'FrontEndController@getLogin'));
 Route::post('login','FrontEndController@postLogin');
+
+
+/*Route::get('/', ['as' => 'user_home', function(){
+    return View::make('user_home');
+}]);*/
+
 Route::get('/', [FrontEndController::class, 'getRegister'])->name('register');
 Route::post('/',[FrontEndController::class, 'postRegister']);
 Route::get('activate/{userId}/{activationCode}',array('as' =>'activate','uses'=>'FrontEndController@getActivate'));
@@ -237,6 +243,11 @@ Route::get('loans_home', ['as' => 'loans_home', function(){
     return View::make('loans_home');
 }]);
 
+Route::get('yanga_home', ['as' => 'yanga_home', function(){
+    return View::make('yanga_home');
+}]);
+
+
 
 Route::get('crdb_loan_form', array('as'=> 'crdb_loan_form', 'uses'=> 'FrontEndController@loan_form'));
 
@@ -245,6 +256,11 @@ Route::get('akiba_loan_form', array('as'=> 'akiba_loan_form', 'uses'=> 'FrontEnd
 Route::get('mfi_loan_form', array('as'=> 'mfi_loan_form', 'uses'=> 'FrontEndController@mfi_loan_form'));
 
 Route::get('member_report/{id}', array('as'=> 'member_report', 'uses'=> 'MembersController@member_report'));
+
+
+Route::post('kairuki_register',array('as' => 'kairuki_register','uses' => 'FrontEndController@kairuki_register'));
+
+
 
 
 #frontend views

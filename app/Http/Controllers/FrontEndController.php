@@ -286,6 +286,11 @@ class FrontEndController extends JoshController
         return Redirect::back()->withInput()->withErrors($this->messageBag);
     }
 
+    public function kairuki_register()
+    {
+        return View('user_home')->with('success', 'Umesajiliwa, karibu Hospitalini');
+    }
+
     /**
      * User account activation page.
      *

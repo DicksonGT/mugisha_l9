@@ -108,69 +108,69 @@ Products
             <h3>NEW LAUNCHES </h3>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/samsung balck.jpg') }}" class="img-responsive" alt="samsung black image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/blueband.jpeg') }}" class="img-responsive" alt="samsung black image"></a>
                     <br/>
-                    <h5 class="text-primary">Samsung Galaxy S6 32 GB - (Black)</h5>
-                    <ul>
+                    <h5 class="text-primary">Blue Band 500g</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Android OS, v5.0.2 (Lollipop)</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 16 MP, 3456 x 4608 pixels</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 5.1 inches </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Nano Sim</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Quad 2.1GHz + Quad </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Internal 32 GB </li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 249,900</h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class=" thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/samsung.jpg') }}" class="img-responsive" alt="samsung image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/korie.jpeg') }}" class="img-responsive" alt="samsung image"></a>
                     <br/>
-                    <h5 class="text-primary">Samsung Galaxy S6 64 GB - (White)</h5>
-                    <ul>
+                    <h5 class="text-primary">Korie Mafuta Bora</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Android OS, v5.0.2 (Lollipop)</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 16 MP, 3456 x 4608 pixels</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 5.1 inches </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Nano Sim</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Quad 2.1GHz + Quad </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Internal 64 GB </li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 355,900</h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class=" thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/samsung balck.jpg') }}" class="img-responsive" alt="samsung black image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/whitedent.jpeg') }}" class="img-responsive" alt="samsung black image"></a>
                     <br/>
-                    <h5 class="text-primary">Samsung Galaxy S6 Edge 32 GB</h5>
-                    <ul>
+                    <h5 class="text-primary">Whitedent Dawa Bora</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Android OS, v5.0.2 (Lollipop)</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 16 MP, 3456 x 4608 pixels</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 5.1 inches </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Nano Sim</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Quad 2.1GHz + Quad </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Internal 32 GB </li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 358,900</h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class=" thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/samsung.jpg') }}" class="img-responsive" alt="samsung image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/cocacola.jpeg') }}" class="img-responsive" alt="samsung image"></a>
                     <br/>
-                    <h5 class="text-primary">Samsung Galaxy S6 Edge 64 GB </h5>
-                    <ul>
+                    <h5 class="text-primary">Cocacola </h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Android OS, v5.0.2 (Lollipop)</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 16 MP, 3456 x 4608 pixels</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> 5.1 inches </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Nano Sim</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Quad 2.1GHz + Quad </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Internal 64 GB </li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 364,900</h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
@@ -187,68 +187,68 @@ Products
         <!-- //New Launches Section End -->
         <!-- Womens Section Start -->
         <div class="row">
-            <h3>WOMENS </h3>
+            <h3>YANGA </h3>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/saree.jpg') }}" class="img-responsive" alt="saree image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/jez_yanga.jpeg') }}" class="img-responsive" alt="saree image"></a>
                     <br/>
-                    <h5 class="text-primary"> Vichitra Multi Colour Will Make Your Day Floral Printed Saree</h5>
-                    <ul>
+                    <h5 class="text-primary"> Jezi</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Product Type - Women's Saree</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Color - Multi Colour</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Pattern - Printed</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Fabric - Georgette</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Care - Machine/Hand Wash</li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 321,198.00<del class="text-danger">TShs. 231,599.00</del> </h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000.00 </h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/saree2.jpg') }}" class="img-responsive" alt="saree2 image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/kofia_yanga.jpeg') }}" class="img-responsive" alt="saree2 image"></a>
                     <br/>
-                    <h5 class="text-primary">  Diva Fashion Brown Vibrant Saree With Mixed Print</h5>
-                    <ul>
+                    <h5 class="text-primary">Kofia</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Product Type - Women's Saree</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Color - Multi Colour</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Pattern - Printed</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Fabric - Jacquard</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Care - Machine/Hand Wash</li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 231,078.00<del class="text-danger">TShs. 321,349.00</del> </h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000.00</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/saree3.jpg') }}" class="img-responsive" alt="saree3 image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/nguo_yanga.jpeg') }}" class="img-responsive" alt="saree3 image"></a>
                     <br/>
-                    <h5 class="text-primary">  Bunkar Purple Ethnic Motif Resham Work Saree</h5>
-                    <ul>
+                    <h5 class="text-primary">Nguo</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Product Type - Women's Saree</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Color - Multi Colour</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Pattern - Printed</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Fabric - Georgette</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Care - Machine/Hand Wash</li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 231,348.00<del class="text-danger">TShs. 321,799.00</del> </h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000.00 </h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
-                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/saree4.jpg') }}" class="img-responsive" alt="saree4 image"></a>
+                    <a href="{{ URL::to('single_product') }}"><img src="{{ asset('assets/images/cart/jez_black_yanga.jpeg') }}" class="img-responsive" alt="saree4 image"></a>
                     <br/>
-                    <h5 class="text-primary">    Silk Bazaar Silk Casual Wear Saree - Rust Work Saree</h5>
-                    <ul>
+                    <h5 class="text-primary">Jez Mpya</h5>
+                    <!-- <ul>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Product Type - Women's Saree</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Color - Pink</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Pattern - Printed</li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Length(in mtr) - 6.3 Meter </li>
                         <li><i class="livicon" data-name="check" data-size="18" data-loop="true" data-c="#787878" data-hc="787878"></i> Care - Dry Clean Only</li>
-                    </ul>
-                    <h4 class="text-primary">TShs. 231,139.00<del class="text-danger">TShs. 321,425.00</del> </h4>
+                    </ul> -->
+                    <h4 class="text-primary">TShs. 000.00</h4>
                     <a href="{{ URL::to('single_product') }}" class="btn btn-primary btn-block text-white">Nunua</a>
                 </div>
             </div>
@@ -256,7 +256,7 @@ Products
         </div>
         <!-- //Womens Section End -->
         <!-- Mens Section Start -->
-        <div class="row">
+        <!-- <div class="row">
             <h3>MENS </h3>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail text-center">
@@ -319,7 +319,7 @@ Products
                 </div>
             </div>
             <h5><a href="{{ URL::to('category') }}">More items</a></h5>
-        </div>
+        </div> -->
         <!-- //Mens Section End -->
         <!-- //Content Section End -->
     </div>

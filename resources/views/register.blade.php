@@ -2,7 +2,7 @@
 
 {{-- Page title --}}
 @section('title')
-members List
+Jiisajili
 @parent
 @stop
 
@@ -78,12 +78,6 @@ members List
 
                     </div>
 
-                    <!-- <div class="form-group {{ $errors->first('date_of_birth', 'has-error') }}">
-                        
-                        <input type="date" class="form-control" id="date_of_birth" name="date_of_birth" placeholder="Tarehe ya Kuzaliwa"
-                               value="{!! old('date_of_birth') !!}">
-                        {!! $errors->first('date_of_birth', '<span class="help-block">:message</span>') !!}
-                    </div> -->
                     <div class="form-group {{ $errors->first('nida_number', 'has-error') }}">
                         <label class="sr-only"> Namba ya NIDA</label>
                         <input type="text" class="form-control" id="nida" name="nida_number" placeholder="Namba ya NIDA"
